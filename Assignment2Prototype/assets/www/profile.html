@@ -1,10 +1,10 @@
-<!DOCTYPE html> 
-<html> 
+<!DOCTYPE html>
+<html>
 	<head>
-  <meta charset="UTF-8">	
-	<title>UniChat</title> 
-	
-	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+  <meta charset="UTF-8">
+	<title>UniChat</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="jquery.mobile.structure-1.0.1.css" />
 	<link rel="apple-touch-icon" href="images/launch_icon_57.png" />
 	<link rel="apple-touch-icon" sizes="72x72" href="images/launch_icon_72.png" />
@@ -12,9 +12,9 @@
 	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.1/jquery.mobile-1.2.1.min.css" />
     <script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
     <script src="http://code.jquery.com/mobile/1.2.1/jquery.mobile-1.2.1.min.js"></script>
-</head> 
+</head>
 
-<body> 
+<body>
 <div data-role="page" id="home" data-theme="c">
 
 	<div data-role="content">
@@ -22,12 +22,91 @@
 		<img src="img/logo.png">
 
 		<br>
+		<br>
+
+		<ul data-role="listview" data-filter="false">
+			<li><div style="font-size: 14px; color: gray;">CURRENTLY SIGNED IN AS PIKA6918@UNI.SYDNEY.EDU.AU</div></li>
+		</ul>
+		<br>
+
+		<style type="text/css">
+
+			#profile {
+				border:1px solid #aaa;
+			  padding:20px 30px;
+			  border-radius:3px;
+			  margin-top:10px;
+			  box-sizing:border-box;
+			}
+
+			#icon {
+				margin-top: 20px;
+				margin-left: -20px;
+			  width: 200px;
+
+			}
+
+			#facts {
+			  margin-left:180px;
+			  margin-top:-230px;
+	    	box-sizing:border-box;
+			}
+
+			.sections {
+		  	border-bottom:1px dashed #aaa;
+			  padding:12px 0px;
+		    position:relative;
+			}
+
+			.category {
+			  position:absolute;
+				font-weight: bold;
+			  left:0px;
+		    width:80px;
+			}
+
+			.info {
+				margin-left:100px;
+			}
+
+			.button {
+				margin-left:10px;
+			}
+
+		</style>
+
+		<div id="profile">
+			<img id="icon" src="img/pikachu.png">
+			<div id="facts">
+				<div class="sections">
+					<div class= "button"> <a data-role="button" href="#" rel="external">Change profile picture</a>
+					</div>
+				</div>
+				<br>
+				<div class="sections">
+					<div class="category">Name</div>
+					<div class="info">Ronald Weasley</div>
+				</div>
+				<div class="sections">
+					<div class="category">Student ID</div>
+					<div class="info"> 460275980 </div>
+				</div>
+				<div class="sections">
+					<div class="category">Age</div>
+					<div class="info"> 21 </div>
+				</div>
+				<div class="sections">
+					<div class="category">Degree </div>
+					<div class="info">Master of Being the Very Best</div>
+				</div>
+			</div>
+			<br>
 
 		<a href="index.html" data-role="button" rel="external" style="color: red;"> Log Out </a>
 
 	</div>
 
-	<div data-role="footer" data-position="fixed">		
+	<div data-role="footer" data-position="fixed">
 		<div data-role="navbar">
 			<ul>
 				<li><a href="home.html" rel="external" data-icon="home">Chats</a></li>
