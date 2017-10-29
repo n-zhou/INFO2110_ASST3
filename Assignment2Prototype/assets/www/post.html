@@ -1,10 +1,10 @@
-<!DOCTYPE html> 
-<html> 
+<!DOCTYPE html>
+<html>
 	<head>
-  <meta charset="UTF-8">	
-	<title>UniChat</title> 
-	
-	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+  <meta charset="UTF-8">
+	<title>UniChat</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="jquery.mobile.structure-1.0.1.css" />
 	<link rel="apple-touch-icon" href="images/launch_icon_57.png" />
 	<link rel="apple-touch-icon" sizes="72x72" href="images/launch_icon_72.png" />
@@ -12,9 +12,9 @@
 	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.1/jquery.mobile-1.2.1.min.css" />
     <script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
     <script src="http://code.jquery.com/mobile/1.2.1/jquery.mobile-1.2.1.min.js"></script>
-</head> 
+</head>
 
-<body> 
+<body>
 <div data-role="page" id="home" data-theme="c">
 
 	<div data-role="content">
@@ -23,7 +23,68 @@
 
 	</div>
 
-	<div data-role="footer" data-position="fixed">		
+		<style type="text/css">
+			#post1 {
+				border:1px solid #aaa;
+			  padding:20px 30px;
+			  border-radius:3px;
+			  margin-top:10px;
+			  box-sizing:border-box;
+			}
+
+			#post2 {
+				border:1px solid #aaa;
+			  padding:20px 30px;
+			  border-radius:3px;
+			  margin-top:50px;
+			  box-sizing:border-box;
+			}
+
+			.name {
+				font-weight:bold;
+			}
+
+		</style>
+		<div id="post1">
+			<div id="facts">
+
+
+				<div class="name">
+					<div class="info">Vare Chnug</div>
+					<img id="icon" src="img/pikachu.png">
+				</div>
+
+				<div class="text">
+					<div class="info">
+						<p>Dear INFO5120 students,</p>
+						<p>Below 3 sessions of 3 hours’ extra revision tutorial have been arranged to help you  prepare for the examination.  Please try to attend your tutorial tutor’s session and bring all your questions to ask your tutor in week 14.</p>
+					</div>
+				</div>
+			</div>
+			<a href="index.html" data-role="button" rel="external" style="color: red;">Leave Comment</a>
+		</div>
+
+		<div id="post2">
+			<div id="facts">
+				<br>
+
+				<div class="name">
+					<div class="info">Jhon Sartvrakis</div>
+					<img id="icon" src="img/Hermione Granger.jpg">
+				</div>
+
+				<div class="text">
+					<div class="info">
+						<p>Dear COMP2017 students,</p>
+						<p>Due to the large complain about PRAS 3, I have decided to fail everyone in the final.</p>
+						<p>So long suckers!</p>
+					</div>
+				</div>
+			</div>
+			<a href="index.html" data-role="button" rel="external" style="color: red;">Leave Comment</a>
+		</div>
+
+	<div data-role="footer" data-position="fixed">
 		<div data-role="navbar">
 			<ul>
 				<li><a href="home.html" data-icon="home">Chats</a></li>
