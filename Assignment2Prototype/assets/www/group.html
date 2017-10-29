@@ -23,9 +23,14 @@
 
 		<ul data-role="listview" data-filter="true">
 			<li data-icon="plus"><a href="#newgroup" data-rel="popup" style="font-size: 14px; color: gray;">Create Group Chat</a></li>
+			<li data-icon="plus"><a href="#newevent" data-rel="popup" style="font-size: 14px; color: gray;">Create Event</a></li>
 			<br>
 			<li><div style="font-size: 14px; color: gray;">Chat Groups</div></li>
-			<li><a href="chat2.html"  data-transition="slidedown" rel="external"><img src="img/Mew.png" style="width: 200px; height: 200px; display: block;"><h3>Chatters</h3><p>Goodbye friends!</p> <span class="ui-li-count" style="color:red"> <red>1</red> </span> </a> </li>
+			<li><a href="chat2.html"  data-transition="slidedown" rel="external"><img src="img/Mew.png" style="width: 200px; height: 200px; display: block;"><h3>Chatters</h3><p>Goodbye friends!</p> <span class="ui-li-count" style="color:red"> <red>3</red> </span> </a> </li>
+			<br>
+			<li><div style="font-size: 14px; color: gray;">Events</div></li>
+			<li><a href="chat3.html"  data-transition="slidedown" rel="external"><img src="img/flowerbox.jpg" style="width: 200px; height: 200px; display: block;"><h3>Best Event Ever(tm)</h3><p>The Best Event Ever(tm) is but one day away!</p> <span class="ui-li-count" style="color:red"> <red>1</red> </span> </a> </li>
+			<br>
 		</ul>
 
 	</div>
@@ -61,6 +66,30 @@
 		</ul>
 		<br>
 		<!-- <li><a href="#detail" data-rel="popup"> <img src="img/Harry Potter.jpg" style="width: 150px;"> <h3>Harry Potter</h3></a> </li> -->
+		<a data-role="button" href="#" rel="external">Create</a>
+
+		<br>
+	</div>
+
+	<div data-role="popup" id="newevent" style="width: 400px;">
+		<img src="img/flowerbox.jpg" style="width: 200px; margin-left: auto; margin-right: auto; display: block;">
+
+		<br>
+		<p style="font-size: 16px; font-weight: bold; margin-left: 125px; margin-right: auto;">Enter Event Name</p>
+		<input type="text">
+
+		<br>
+		<p style="font-size: 16px; font-weight: bold; margin-left: 125px; margin-right: auto;">Enter Event Date</p>
+		<input type="text">
+
+		<br>
+		<p style="font-size: 16px; font-weight: bold; margin-left: 125px; margin-right: auto;">Invite Guests</p>
+		<ul data-role="listview" data-filter="false">
+			<li data-icon="plus"><img src="img/Harry Potter.jpg" style="width: 40px; height: 40px; font-size: 16px;">Harry Potter<a href="#" style="margin-left: auto;"></a></li>
+			<li data-icon="plus"><img src="img/Zessica.jpg" style="width: 40px; height: 40px; font-size: 16px;">Zessica<a href="#" style="margin-left: auto;"></a></li>
+			<li data-icon="plus"><img src="img/pikachu.png" style="width: 40px; height: 40px; font-size: 16px;">Pikachu<a href="#" style="margin-left: auto;"></a></li>
+		</ul>
+		<br>
 		<a data-role="button" href="#" rel="external">Create</a>
 
 		<br>
